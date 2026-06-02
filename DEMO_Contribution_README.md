@@ -1,138 +1,160 @@
-# Contribution [#]: [Issue Title]
+# Contribution #1: Missing ReadMe In Clerk-Fetchers
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase 1 / Phase 2 / Phase 3 / Phase 4]
+**Contribution Number:** 1
+**Student:** Margaret Fero  
+**Issue:** https://github.com/civicband/clerk-fetchers/issues/1 
+**Status:** Phase 4 Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because I needed a demo, and I'm a maintainer on a repo that needed a ReadMe. I knew the repository already, so it wasn't going to take work to situate myself. I knew the AI involvement in the contribution would be okay because I checked with the Project Lead about that first.
 
 ---
 
 ## Understanding the Issue
 
 ### Problem Description
-[In your own words, what's broken or missing?]
+
+The repository did not have a README.me file.
 
 ### Expected Behavior
-[What should happen?]
+
+Every repository should have a README.md file.
 
 ### Current Behavior
-[What actually happens?]
+
+When a potential contributor goes to this repository, they receive no informatoin about what belongs in it or where to start.
 
 ### Affected Components
-[Which parts of the codebase are involved?]
+
+Documentation
 
 ---
 
 ## Reproduction Process
 
 ### Environment Setup
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+
+All I had to do to set up my environment for this one was clone the repository to my local machine. I already had direct commit access, so no fork was necessary. I was only changing developer documentation, which this repository hosts as vanilla markdown files in GitHub, so I didn't need to install any special documentation tooling and could edit from my usual VSCode set up. 
 
 ### Steps to Reproduce
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+
+1. Open repository.
+2. Look for ReadME.MD in top level files.
+3. No readme exists.
 
 ### Reproduction Evidence
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+
+- **Commit showing reproduction:** [68512dfac6bfa8db9a61f6367e3b8316db1533e3](https://github.com/civicband/clerk-fetchers/pull/2/changes/68512dfac6bfa8db9a61f6367e3b8316db1533e3)
+- **Screenshots/logs:** N/A
+- **My findings:** I discovered that this file doesn't exist yet.
 
 ---
 
 ## Solution Approach
 
 ### Analysis
-[Your analysis of the root cause - what's causing the issue?]
+
+The root cause of this issue is that it's a new repository and nobody had written a readme.MD file for it yet. As one of the maintainers of this repository, this was my job.
 
 ### Proposed Solution
-[High-level description of your fix approach]
+
+To solve this problem, I first outlined what needed to go in the repositories read me, then used Claude to co-create content to fill in those gaps before finally revising manually.
 
 ### Implementation Plan
+
 Using UMPIRE framework (adapted):
 
-**Understand:** [Restate the problem]
+**Understand:** The repository is missing a readme.MD file.
 
-**Match:** [What similar patterns/solutions exist in the codebase?]
+**Match:** This repository didn't have a readme file yet, but several of the organization's other repositories did. I could use those as a base from which to fill out the readme for this for repository. I also know, from prior experience and from working on other open source projects, what normally goes in a README file, and can refer to other organizations' templates as well.
 
-**Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
+**Plan:** 
+1. Create a scaffold for the readme file containing section headers for all necessary sections.
+2. Add a brief description or bullet points for anything that needs to go in each section.
+3. Use Claude to generate content one section at a time until each section is filled in.
+4. Manually revise all of the AI-assisted content so that it matches the project overall style and is clear.
+5. Share draft with other project maintainers so everyone can review.
+6. Once all maintainers agree that this readme has the necessary information, submit a pull request for merge.
 
-**Implement:** [Link to your branch/commits as you work]
+**Implement:** https://github.com/civicband/clerk-fetchers/pull/2/changes
 
-**Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
+**Review:** This project didn't have contribution guidelines yet, so I'll use my normal editing checklist.
 
-**Evaluate:** [How will you verify it works?]
+**Evaluate:** If it works a readme.MD file will exist and all project maintainers will agree that it contains the correct information for new contributors.
 
 ---
 
 ## Testing Strategy
 
 ### Unit Tests
-- [ ] Test case 1: [Description]
-- [ ] Test case 2: [Description]
-- [ ] Test case 3: [Description]
+
+This contribution did not result in new or changed unit test because it was only a change to the project's default readme.MD file.
 
 ### Integration Tests
-- [ ] Integration scenario 1
-- [ ] Integration scenario 2
+
+No code was written for this contribution, so there was no integration to test.
 
 ### Manual Testing
-[What you tested manually and results]
+
+I manually tested that the file existed, and confirmed that fellow maintainers manually tested that it contains the information they expect.
 
 ---
 
 ## Implementation Notes
 
-### Week [X] Progress
-[What you built this week, challenges faced, decisions made]
+### Week 1 Progress
 
-### Week [Y] Progress
-[Continue documenting as you work]
+This week, I built the scaffolding, filled it in, and edited my AI-assisted contribution. The biggest challenge I faced was that generating the content with AI tooling actually slowed me down. Because I've written many readme files before, this wasn't a very efficient way for me to do it, and I ended up writing about the same number of words as I would have if I had written the readme directly. If I were less experienced, though, this would've gotten me to a usable readme much faster than if I had written the entire thing from scratch while needing to look things up frequently throughout the process.
+
+### Week 2 Progress
+
+This week, I received feedback from fellow maintainers and updated my contribution accordingly. There weren't any significant issues, but I did make some minor changes in response to feedback.
 
 ### Code Changes
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+
+- **Files modified:** README.md
+- **Key commits:** [[Add TODOs]](https://github.com/civicband/clerk-fetchers/pull/2/changes/68512dfac6bfa8db9a61f6367e3b8316db1533e3), Added [AI Draft](https://github.com/civicband/clerk-fetchers/pull/2/changes/0b9d1d149fb156a13be67eed919c400e10fad3ef), [Manual Edits](https://github.com/civicband/clerk-fetchers/pull/2/changes/d4125367046ea71e4d34519f133f9e79b4d751c1), [Update](https://github.com/civicband/clerk-fetchers/pull/2/changes/b2cd3ed2d95b0e5d6fc8663e7fc8f7a055943041) after maintainer feedback
+- **Approach decisions:** I chose to include the sections I did because they're very common in readme files and I thought they would add value to contributors to this project. I excluded some often included sections because I thought they weren't relevant to this project or otherwise would not add value.
 
 ---
 
 ## Pull Request
 
-**PR Link:** [GitHub PR URL when submitted]
+**PR Link:** [GitHub PR URL](https://github.com/civicband/clerk-fetchers/pull/2)
 
-**PR Description:** [Draft or final PR description - much of the content above can be adapted]
+**PR Description:** This PR will resolve issue #1 by adding a new ReadMe with commonly-used sections. A few outstanding questions I have and the assumptions I've made for now are:
+
+How do you want users to use GitHub Issues? I've assumed they're the standard way to report bugs or request help
+If people want to contact maintainers privately, like for a security vulnerability, how should they do that? I've assumed the main civicband email
+When will data be searchable on Civicband after a user writes a new scraper? I assumed about 24 hours after you accept it.
 
 **Maintainer Feedback:**
-- [Date]: [Summary of feedback received]
-- [Date]: [How you addressed it]
+- April 14: Update timeline for expecting PR feedback
+- April 14: Updated my PR to match the expectation
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+**Status:** Merged
 
 ---
 
 ## Learnings & Reflections
 
 ### Technical Skills Gained
-[What you learned technically]
+
+This was my first try, generating technical documentation, using an AI tool, and I learned that the habits formed while writing other readmes caused my prompts to basically contain what I wanted the AI to say. This month that it wasn't as much faster than my usual workflow as I had hoped.
 
 ### Challenges Overcome
-[What was hard and how you solved it]
+
+One of my biggest challenges was getting the AI to write overview content that was reasonable. In the end, instead of having the AI draft overview content directly, I used the AI-drafted overview content as an extended description, and then manually pulled sentences from throughout the draft to use as an overview summary.
 
 ### What I'd Do Differently Next Time
-[Reflection on your process]
+
+Next time, I might try letting the AI generate more of the documentation independently rather than providing such a rigid scaffold to begin with. I think this could result in a bit more time savings relative to what I did this time.
 
 ---
 
 ## Resources Used
-- [Link to helpful documentation]
-- [Tutorial or Stack Overflow post that helped]
-- [GitHub issues or discussions that helped]
+
+I didn't really refer to any external resources on this one, because this was a pretty small issue in a familiar area for me.
