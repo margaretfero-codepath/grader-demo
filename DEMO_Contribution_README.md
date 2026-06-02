@@ -3,7 +3,7 @@
 **Contribution Number:** 1
 **Student:** Margaret Fero  
 **Issue:** https://github.com/civicband/clerk-fetchers/issues/1 
-**Status:** Phase 4 Complete
+**Status:** Phase IV Complete
 
 ---
 
